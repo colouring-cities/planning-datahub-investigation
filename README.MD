@@ -25,11 +25,11 @@ API plans, including explicit mention that it is for a public use: https://smart
 
 - [make_query.py](make_query.py) - generic script fetching specified data
 - [all_in_specific_time_in_past.py](all_in_specific_time_in_past.py) - script fetching data - all objects within specific recent timeframe (`decision_date` after 2021-10-21)
-- [all_in_specific_time_in_past.py](all_in_specific_time_in_past.py) - data obtained by this script
+- [all_in_specific_time_in_past.json](all_in_specific_time_in_past.json) - data obtained by this script
 - [all_in_specific_time_recent.py](all_in_specific_time_recent.py) - script fetching data - all objects within specific timeframe, quite old one (`decision_date` between 2001-10-29 and 2001-11-01)
-- [all_in_specific_time_recent.py](all_in_specific_time_recent.py) - data obtained by this script
+- [all_in_specific_time_recent.json](all_in_specific_time_recent.json) - data obtained by this script
 - [major_only.py](major_only.py) - script fetching data, with additional filtering - `development_type` matches `Major*, and `decision_date` between 2001-10-29 and 2001-12-01
-- [major_only.py](major_only.py) - data obtained by this script
+- [major_only.py](major_only.json) - data obtained by this script
 
 It was based on queries made by discover tab at Kibana.
 * Looking at network queries made by [that site](https://planningdata.london.gov.uk/dashboard/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now)))
